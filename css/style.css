@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #c0dfeb; 
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(8, 20px); 
+    gap: 1px; 
+    background-color: #000; 
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.pixel {
+    width: 20px;
+    height: 20px;
+    border-radius: 2px; 
+}
+
+.transparent {
+    background-color: transparent;
+}
+
+.red {
+    background-color: #FF0000; 
+}
+
+.white {
+    background-color: #FFFFFF; 
+}
